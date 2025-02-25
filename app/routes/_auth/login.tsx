@@ -14,12 +14,11 @@ function RouteComponent() {
         const formData = new FormData(e.target as HTMLFormElement)
         try {
             await login({ data: formData })
-            navigate({ to: '/' })
+            navigate({ to: "/" })
         } catch (error) {
             setError(String(error))
         }
     }
-
     return <form onSubmit={handleSubmit}>
         <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
@@ -30,8 +29,9 @@ function RouteComponent() {
                 <label htmlFor="password">Password</label>
                 <input type="password" name="password" className="border border-gray-300 rounded-md p-2" />
             </div>
-            {error && <p className="text-red-500">{error}</p>}
+            {error && <div className="text-red-500">{error}</div>}
             <button type="submit" className="bg-blue-500 text-white rounded-md p-2">Login</button>
+
         </div>
     </form>
 }

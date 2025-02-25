@@ -1,5 +1,5 @@
 {
-  "name": "tanstack-start-pocketbase",
+  "name": "tanstack-start-example-basic",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@tanstack/react-router": "^1.111.6",
-    "@tanstack/router-devtools": "^1.111.6",
-    "@tanstack/start": "^1.111.6",
+    "@tanstack/react-router": "^1.111.7",
+    "@tanstack/router-devtools": "^1.111.7",
+    "@tanstack/start": "^1.111.7",
     "concurrently": "^9.1.2",
     "pocketbase": "^0.25.1",
     "react": "^19.0.0",

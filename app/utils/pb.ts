@@ -1,3 +1,3 @@
-import PocketBase from "pocketbase";
+import Pocketbase from "pocketbase";
 
-export const pb = new PocketBase("http://localhost:8090");
+export const pb = new Pocketbase("http://localhost:8090");

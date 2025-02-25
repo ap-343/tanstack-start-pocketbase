@@ -79,10 +79,10 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <body>
         <div className="flex flex-row p-6">
           <div className="flex flex-col p-4">
-            <Link to="/" activeProps={{ className: "font-bold" }}>Home</Link>
-            <Link to="/login" activeProps={{ className: "font-bold" }}>Login</Link>
-            <Link to="/logout" activeProps={{ className: "font-bold" }}>Logout</Link>
-            <Link to="/dashboard" activeProps={{ className: "font-bold" }}>Dashboard</Link>
+            <Link to="/" activeProps={{ className: 'font-bold' }}>Home</Link>
+            <Link to="/login" activeProps={{ className: 'font-bold' }}>Login</Link>
+            <Link to="/logout" activeProps={{ className: 'font-bold' }}>Logout</Link>
+            <Link to="/dashboard" activeProps={{ className: 'font-bold' }}>Dashboard</Link>
           </div>
           <div className="flex flex-col p-4">
             {children}
@@ -91,6 +91,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <TanStackRouterDevtools position="bottom-right" />
         <Scripts />
       </body>
-    </html>
+    </html >
   )
 }
